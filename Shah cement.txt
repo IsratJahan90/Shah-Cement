@@ -1,0 +1,61 @@
+http://shahcem.babl.xyz/rmc_ta_da
+User: RMC00004
+Pas: 12345
+
+mis_user
+
+SRS: https://docs.google.com/document/d/1mS6VntvhR9tY84kCtadqrjBJjox6BgXFoWxJGNRuI68/edit?tab=t.0
+
+Figma: https://www.figma.com/design/aH6p0smn2CO2iJksRjG5jL/RMC-TA%2FDA-New-Mock?node-id=0-1&node-type=canvas&t=QaMjydIt52ty7rSc-0
+
+
+Live:
+https://scilsmartsales.abulkhairgroup.com/auth/login
+user:mis_user
+Pass:Scil2024!@#
+
+
+
+
+<<<< >>>><<<< >>>><<<< >>>><<<< >>>><<<< >>>><<<< >>>><<<< >>>><<<< >>>><<<< >>>>
+
+Pass: Dc2345
+
+Dhaka coal->>>>
+          Ghat list->create (+)
+          Item List-> (+)
+          Bank-> (+)
+          Branch Name-> (+)
+          LC Name-> (+)
+          DC Employee-> (+)  [Ghat incharge, Accounts, Finance,]
+                             [Sales manager, Marketing officer, Sales officer]
+
+Customer create (+)->>3 টা জায়গা থেকে create করতে পারবে
+                    -> 1. Web (Mis super admin)
+                    -> 2. APK Sales officer 
+                    -> 3. APK Marketing officer
+
+[Create এর পরে  Accounts (Web) দিয়ে  approve করতে হয়]
+
+
+Order-> 2 টা জায়গা থেকে  Order করতে পারবে
+     ->1. APK Sales officer [Order & Delivery]
+     ->2. APK Marketing officer [Order only]
+
+Order aprrove -> Ghat Incharge->Sales manager->Finance->Login & Approved
+Delivery-> APK Sales officer
+Payment-> APK Ghat Incharge/Apk Marketing officer->advance payment
+
+Cash   -> SO ID [Payment->Accounts->Finace->Payments index->Approved then delivery]
+Credit -> SO ID & DO ID [Delivery] (payment mandatory noi)
+
+
+>>>>>>>:New Changes:<<<<<<<
+[12:05 pm, 13/02/2025] Shimul Vai Babl: 
+
+1. New Customer-> Oracle Number need to be remove.
+2. New Customer-> Sales manager dropdown field can't be select.
+3. Order-> mobile number will be showing auto, optional mobile need to remove.
+4. Delivery-> After submit delivery, ghure home page a ase. eita hobe na. delivery korar por delivery tei thakbe.
+5. Delivery-> delivery module a self select korar por item select korte hoi. sekhane mother vessel er sathe lc code thakbe.
+6. Existing customer-> customer id er jaigai oracle id hobe.
